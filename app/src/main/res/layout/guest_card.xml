@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/card_guest_radius">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.id.maris.suittest.widget.SquareImageView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/imgGuest"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/guest_photo_height"
+                android:layout_weight="1.0"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:scaleType="fitXY"/>
+
+
+            <TextView
+                android:id="@+id/guestname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgGuest"
+                android:paddingLeft="@dimen/guest_name_padding"
+                android:paddingRight="@dimen/guest_name_padding"
+                android:paddingTop="@dimen/guest_name_padding"
+                android:textColor="@color/guest_name"
+                android:textSize="@dimen/guest_name" />
+
+            <TextView
+                android:id="@+id/birthdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/guestname"
+                android:paddingBottom="@dimen/guest_birthdate_padding_bottom"
+                android:paddingLeft="@dimen/guest_name_padding"
+                android:paddingRight="@dimen/guest_name_padding"
+                android:textSize="@dimen/guest_birthdate" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

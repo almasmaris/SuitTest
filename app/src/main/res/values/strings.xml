@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SuitTest</string>
+    <string name="action_next">Next</string>
+    <string name="prompt_name">Nama</string>
+    <string name="name">Nama:</string>
+    <string name="choosedEvent">Pilih Event</string>
+    <string name="ChoosedGuest">Pilih Guest</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

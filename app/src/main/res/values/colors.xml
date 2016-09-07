@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D32F2F</color>
+    <color name="colorPrimaryDark">#B71C1C</color>
+    <color name="colorPrimarylight">#ef5350</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#727272</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="colorAccent">#ef5350</color>
+    <color name="highlightGrey">#cfd8dc</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="guest_name">#4c4c4c</color>
+</resources>

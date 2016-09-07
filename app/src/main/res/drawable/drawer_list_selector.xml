@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/highlightGrey"/>
+        </shape>
+    </item>
+    <item android:state_activated="true" android:drawable="@drawable/light_gray_color"  />
+    <item android:drawable="@color/windowBackground" android:state_activated="false"/>
+</selector>
